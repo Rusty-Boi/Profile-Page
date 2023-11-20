@@ -36,9 +36,9 @@
     </div>
 
     <div class="container-fluid profile-section">
-        <div class="row g-2">
-            <div class="col-4 d-flex justify-content-center">
-                <div class="card shadow" aria-hidden="true" style="width: 38rem;">
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+            <div class="col d-flex justify-content-center">
+                <div class="card shadow rounded-4" aria-hidden="true">
                     <img src="m75RLP.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Gerald Pratama</h5>
@@ -47,70 +47,55 @@
                     </div>
                 </div>
             </div>
-            <div class="col-8 d-flex justify-content-center">
-                <div class="card shadow" style="width: 80rem;">
-                    <div class="card-header">
-                      <ul class="nav nav-tabs card-header-tabs">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="true" href="#">Github</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Behance</a>
-                        </li>
-                      </ul>
+            <!-- Project Section -->
+            <div class="col d-flex justify-content-center project-section">
+                <div class="card shadow rounded-2" style="width: 80rem;">
+                    <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-github-tab" data-bs-toggle="tab" data-bs-target="#nav-github" type="button" role="tab" aria-controls="nav-github" aria-selected="true">Github</button>
+                        <button class="nav-link" id="nav-behance-tab" data-bs-toggle="tab" data-bs-target="#nav-behance" type="button" role="tab" aria-controls="nav-behance" aria-selected="false">Behance</button>
                     </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Github Projects</h5>
-                      <div class="row gy-4">
-                        <div class="col-4 d-flex justify-content-center">
-                            <div class="card project-github shadow" aria-hidden="true" style="width: 24rem;">
-                                <img src="./images/MoscilaBrew.JPG" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Moscila Brew</h5>
-                                  <p class="card-text">Coffee bean e-commerce website.</p>
-                                </div>
+                    </nav>
+                   
+                    <div class="tab-content" id="nav-tabContent">
+                         <!-- Github Tab -->
+                        <div class="tab-pane fade show active" id="nav-github" role="tabpanel" aria-labelledby="nav-github-tab" tabindex="0">
+                            <div class="row row-cols-1 row-cols-md-3 g-4 projectGroup project-github">
+                                <!-- <div class="col project">
+                                  <div class="card h-100">
+                                    <img src="./images/MoscilaBrew.JPG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Moscila Brew</h5>
+                                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                  </div>
+                                </div> -->
                             </div>
                         </div>
-                        <div class="col-4 d-flex justify-content-center">
-                            <div class="card project-github shadow" aria-hidden="true" style="width: 24rem;">
-                                <img src="2152541.webp" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Computer-Graphic-Project</h5>
-                                  <p class="card-text">3D simulation of the solar system. This project uses THREE JS for the development.</p>
-                                </div>
+                        <!-- End of Github Tab -->
+
+                        <!-- Behance Tab -->
+                        <div class="tab-pane fade" id="nav-behance" role="tabpanel" aria-labelledby="nav-behance-tab" tabindex="0">
+                            <div class="row row-cols-1 row-cols-md-3 g-4 projectGroup project-behance">
+                                <!-- <div class="col project">
+                                  <div class="card h-100">
+                                    <img src="./images/MoscilaBrew.JPG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Moscila Brew</h5>
+                                      <p class="card-text">desc</p>
+                                    </div>
+                                  </div>
+                                </div> -->
                             </div>
                         </div>
-                        <div class="col-4 d-flex justify-content-center">
-                            <div class="card project-github shadow" aria-hidden="true" style="width: 24rem;">
-                                <img src="./images/Cover SoulThrone.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">SoulThrone</h5>
-                                  <p class="card-text">A turn-based PRG game. Game Design focused.</p>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="githubBtnContainer d-flex justify-content-center">
-                        <a href="" class="btn btn-secondary">Go to Github Page></a>
-                      </div>
+                        <!-- End of Behance Tab -->
                     </div>
+                    
                   </div>
             </div>
         </div>
     </div>
-    
-        <!-- <div class="container-fluid" style="padding: 0; margin: 0; width: 100%;">
-            <div class="z-0 container-fluid d-flex row profileBar shadow justify-content-center align-items-center" style="background-color: aliceblue;">
-                <div class="Name">
-                    <h1 style="text-align: center;">Gerald Pratama</h1>
-                    <h3>Software Developer</h3>
-                </div>
-                
-            </div>
-            <img class="z-1 rounded-circle img-fluid border border-5 imageContainer position-absolute shadow" src="./m75RLP.jpg" style="width: 17rem; height: 17rem;  background-color: aliceblue; left: 5rem; top: 15rem;"></div>
-        </div> -->
-        
-    
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
