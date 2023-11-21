@@ -9,21 +9,21 @@ const data = [
     {
         type: 'github',
         title: '3D Solar System Simulation Project',
-        desc: 'A 3D simulation of the solar system in a website using THREE JS.',
+        desc: 'WebGL project about 3D simulation of the solar system using Three JS.',
         img: './images/solarsystem.JPG',
         link: 'https://github.com/Rusty-Boi/ThreeJs-Project'
     },
     {
         type: 'github',
         title: 'SoulThrone',
-        desc: 'A turn-based PRG game. This project is game design focused project.',
+        desc: 'SoulThrone is a turn based RPG game. This project focuses on game design.',
         img: './images/Cover SoulThrone.png',
         link: 'https://github.com/Rusty-Boi/SoulThrone'
     },
     {
         type: 'behance',
         title: 'WanderLinx',
-        desc: 'Mobile travelling application project design.',
+        desc: 'Mobile travelling application design project.',
         img: './images/WanderLinx.JPG',
         link: 'https://www.behance.net/gallery/171173803/Project-UX-Kelompok-7'
     },
@@ -37,7 +37,7 @@ const data = [
     {
         type: 'behance',
         title: 'FitNance',
-        desc: 'FitNance is a mobile application for financial management.',
+        desc: 'Financial application design project.',
         img: './images/FitNance.png',
         link: 'https://www.behance.net/gallery/164214283/fitNance-Mobile-Finance-Management-App'
     }

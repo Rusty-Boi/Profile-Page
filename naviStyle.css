@@ -30,3 +30,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     color: #696969 !important;
 }
+
+.contact-section {
+    margin-top: 2rem;
+}
+
+.social-media-section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

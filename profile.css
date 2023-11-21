@@ -7,8 +7,18 @@
 body {
     font-family: 'Arial Narrow', sans-serif, 'Montserrat';
     min-height: 100vh;
-    background-image: url('./images/620bd6d655f2044afa28bff4_glassmorphism.jpeg');
-    background-size: cover;
+    /* background-image: url('./images/Bokeh-ipad.jpg');
+    background-size: cover; */
+    background-color:hsla(190,48%,28%,1);
+    background-image:
+    radial-gradient(at 68% 53%, hsla(212,74%,52%,0.62) 0px, transparent 50%),
+    radial-gradient(at 86% 53%, hsla(221,100%,48%,1) 0px, transparent 50%),
+    radial-gradient(at 27% 95%, hsla(0,53%,44%,1) 0px, transparent 50%),
+    radial-gradient(at 68% 33%, hsla(264,53%,48%,1) 0px, transparent 50%),
+    radial-gradient(at 88% 80%, hsla(227,83%,12%,1) 0px, transparent 50%),
+    radial-gradient(at 13% 66%, hsla(240,100%,41%,1) 0px, transparent 50%),
+    radial-gradient(at 97% 21%, hsla(0,59%,57%,1) 0px, transparent 50%),
+    radial-gradient(at 5% 16%, hsla(191,100%,46%,1) 0px, transparent 50%);
 }
 
 @media (max-width: 760px) {
@@ -111,15 +121,15 @@ body {
 }
 
 .project .stretched-link{
-    background-color: #ffffff;
-    border: #2E3E64;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-color: rgba(255, 255, 255, 0);
     color: #000000;
     font-weight: 500;
 }
 
 .project .stretched-link:hover{
-    background-color: #696969;
-    border-color: #ffffff;
+    background-color: rgba(200, 200, 200, 1);
     color: #ffffff;
 }
 

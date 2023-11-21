@@ -6,20 +6,35 @@
 
 body {
     min-height: 100vh;
-    background-color: aliceblue;
+    height: 100vh;
+    background-size: cover;
+    background-color:hsla(190,48%,28%,1);
+    background-image:
+    radial-gradient(at 68% 53%, hsla(212,74%,52%,0.62) 0px, transparent 50%),
+    radial-gradient(at 86% 53%, hsla(221,100%,48%,1) 0px, transparent 50%),
+    radial-gradient(at 27% 95%, hsla(0,53%,44%,1) 0px, transparent 50%),
+    radial-gradient(at 68% 33%, hsla(264,53%,48%,1) 0px, transparent 50%),
+    radial-gradient(at 88% 80%, hsla(227,83%,12%,1) 0px, transparent 50%),
+    radial-gradient(at 13% 66%, hsla(240,100%,41%,1) 0px, transparent 50%),
+    radial-gradient(at 97% 21%, hsla(0,59%,57%,1) 0px, transparent 50%),
+    radial-gradient(at 5% 16%, hsla(191,100%,46%,1) 0px, transparent 50%);
 }
 
-.navbar{
-    height: 8vh;
-    background-color: #2E3E64;
-}
-.navbar-nav .nav-link{
-    color: #ffffff !important;
-    margin-right: 1vw;
-    margin-left: 1vw;
+.home-section {
+    margin: auto;
+    height: 100vh;
+    
 }
 
-.nav-link:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    color: #CCDBEE !important;
+.card .card-title {
+    font-size: 3rem;
 }
+
+.card {
+    color: #ffffff;
+    border-radius: 15px; 
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
