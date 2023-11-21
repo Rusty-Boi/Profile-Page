@@ -5,24 +5,53 @@
 }
 
 body {
+    font-family: 'Arial Narrow', sans-serif, 'Montserrat';
     min-height: 100vh;
-    background-color: aliceblue;
+    background-image: url('./images/620bd6d655f2044afa28bff4_glassmorphism.jpeg');
+    background-size: cover;
 }
 
-.navbar{
-    height: 8vh;
-    background-color: #2E3E64;
+@media (max-width: 760px) {
+    .profile-section {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-card {
+        height: 95rem !important;
+    }
+
 }
 
-.navbar-nav .nav-link{
-    color: #ffffff !important;
-    margin-right: 1vw;
-    margin-left: 1vw;
+.inner-content {
+    margin: auto;
+    padding: 2px;
 }
 
-.nav-link:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    color: #CCDBEE !important;
+.content-title h1{
+    color: #ffffff;
+    font-size: 4rem;
+    margin: auto;
+    padding: 1rem;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.nav-tabs .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-tabs .nav-link:active {
+    color: #ffffff;
+    font-weight: 500;
+
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .imageContainer {
@@ -38,23 +67,28 @@ body {
     object-fit: cover;
 }
 
-.profileBar {
-    width: 100%;
-    height: 32vh;
-    padding: 0;
-    margin: 0;
-}
-
 .card img {
     object-fit: cover;
 }
 
 .profile-section {
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .project-section {
-    width: 65rem;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+.section-card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80rem; 
+    height: 40rem;
 }
 
 .projectGroup {
@@ -73,26 +107,47 @@ body {
     height: 28rem;
     color: #000000;
     border: none;
+
 }
 
 .project .stretched-link{
-    background-color: #2E3E64;
+    background-color: #ffffff;
     border: #2E3E64;
+    color: #000000;
+    font-weight: 500;
 }
 
 .project .stretched-link:hover{
-    background-color: #3f568a;
+    background-color: #696969;
     border-color: #ffffff;
-    color: #CCDBEE;
+    color: #ffffff;
+}
+
+.project-card {
+    border: 2px transparent #ffffff;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(1px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    font-weight: 450;
+}
+
+.project-card .card-title {
+    font-weight: 600;
 }
 
 .project-card:hover{
-    background-color: #2E3E64;
-    color: white;
+    background: rgba(255, 255, 255, 0.8);
+    border-color: #ffffff;
 }
 
 .project .card-link:hover{
     color: #CCDBEE
 }
 
+.github-tab .nav-link {
+    color: #ffffff !important;
+}
 

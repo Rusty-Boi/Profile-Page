@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+.navbar{
+    height: 8vh;
+    background-color: #2E3E64;
+}
+.navbar-nav .nav-link{
+    color: #ffffff !important;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.nav-link:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #CCDBEE !important;
+}

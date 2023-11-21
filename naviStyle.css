@@ -1,0 +1,32 @@
+.offcanvas {
+    height: 100vh;
+    background: rgba(255, 255,  255, 1);
+    backdrop-filter: blur(1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.offcanvas-body {
+    height: 100%;
+}
+
+.offcanvas-body .nav-link {
+    color: #000000 !important;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.navbar {
+    background: rgba(255, 255,  255, 0.6) !important;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link{
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.nav-link:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #696969 !important;
+}
